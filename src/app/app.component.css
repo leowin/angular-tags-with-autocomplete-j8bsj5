@@ -1,3 +1,22 @@
-p {
-  font-family: Lato;
+body {
+  font-size: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+span.filter {
+  font-size: 11px;
+}
+div.sel {
+  width: auto;
+  list-style: none;
+}
+div.sel:hover {
+  background-color: lightgray;
+}
+div.sel span.cont {
+  font-style: italic;
+}
+
+ul.ui-autocomplete-items.ui-autocomplete-list {
+  list-style: none !important;
+  
 }
