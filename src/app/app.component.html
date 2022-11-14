@@ -1,0 +1,5 @@
+<p-autoComplete [(ngModel)]="texts" [suggestions]="results" (completeMethod)="search($event)" (onKeyUp)="onKeyUp($event)" [multiple]="true" [unique]="true">
+  <ng-template let-value pTemplate="selectedItem">
+        <span class="ui-autocomplete-token-label" style="font-size:18px">{{value}}</span>
+    </ng-template>
+</p-autoComplete>
